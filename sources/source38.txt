@@ -1,0 +1,85 @@
+CPXPARAM_Read_DataCheck                          1
+Found incumbent of value 2197.073234 after 0.00 sec. (0.03 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 16 rows and 14 columns.
+MIP Presolve modified 113 coefficients.
+Aggregator did 113 substitutions.
+Reduced MIP has 159 rows, 387 columns, and 851 nonzeros.
+Reduced MIP has 258 binaries, 0 generals, 0 SOSs, and 226 indicators.
+Presolve time = 0.00 sec. (0.93 ticks)
+Probing time = 0.00 sec. (1.24 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 159 rows, 387 columns, and 851 nonzeros.
+Reduced MIP has 258 binaries, 0 generals, 0 SOSs, and 226 indicators.
+Presolve time = 0.02 sec. (0.75 ticks)
+Probing time = 0.00 sec. (1.21 ticks)
+Clique table members: 495.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.40 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         2197.0732        0.0000           100.00%
+      0     0      430.7334    18     2197.0732      430.7334       33   80.40%
+      0     0      469.5953    22     2197.0732      Cuts: 81       55   78.63%
+      0     0      473.2595    14     2197.0732      Cuts: 85       72   78.46%
+      0     0      475.4264    24     2197.0732     Cuts: 114       85   78.36%
+      0     0      475.4264    24     2197.0732      Cuts: 39       91   78.36%
+      0     0      475.4264    14     2197.0732       Cuts: 7       95   78.36%
+      0     0      475.4264    14     2197.0732     Cuts: 101      103   78.36%
+*     0+    0                         1183.8920      475.4264            59.84%
+*     0+    0                         1053.9824      475.4264            54.89%
+*     0+    0                         1038.0562      475.4264            54.20%
+      0     2      475.4264    14     1038.0562      490.1609      103   52.78%
+Elapsed time = 0.09 sec. (18.81 ticks, tree = 0.02 MB, solutions = 4)
+*   800+  263                         1031.5077      546.0967            47.06%
+   5551    82      707.3273     9     1031.5077      749.3282    55922   27.36%
+  10465  1878      874.6855    22     1031.5077      749.3282   102247   27.36%
+  12766   231      753.0837     9     1031.5077      750.9288   136401   27.20%
+  17613  1935      932.3110    18     1031.5077      772.9220   204126   25.07%
+  22153  2980     1019.6959    26     1031.5077      805.7998   255451   21.88%
+  27022  4047        cutoff           1031.5077      819.3423   311895   20.57%
+  32044  4917    infeasible           1031.5077      828.2574   364925   19.70%
+  36699  5838     1013.8873    15     1031.5077      836.2288   423057   18.93%
+  41725  6524      934.3343    18     1031.5077      842.0881   469719   18.36%
+  59131  9234        cutoff           1031.5077      859.6700   670479   16.66%
+Elapsed time = 9.00 sec. (3118.98 ticks, tree = 4.00 MB, solutions = 5)
+  74743 11031      994.1154    22     1031.5077      873.6318   845523   15.31%
+  91244 12698     1004.1982    25     1031.5077      885.3398  1035266   14.17%
+ 105909 13755        cutoff           1031.5077      895.3228  1189553   13.20%
+ 120393 14547    infeasible           1031.5077      903.1184  1337866   12.45%
+ 135995 15269      925.5698    32     1031.5077      911.0327  1499079   11.68%
+ 149978 15733      983.0239    22     1031.5077      917.9712  1668579   11.01%
+ 165818 16059        cutoff           1031.5077      924.1053  1798081   10.41%
+ 181684 16266      934.9435    19     1031.5077      930.4251  1964491    9.80%
+ 196410 16372    infeasible           1031.5077      936.1311  2111841    9.25%
+ 211285 16103     1021.8749    14     1031.5077      941.5896  2257226    8.72%
+Elapsed time = 42.70 sec. (12656.26 ticks, tree = 6.64 MB, solutions = 5)
+ 226702 15667      987.3219    16     1031.5077      946.9234  2385730    8.20%
+ 241763 14840    infeasible           1031.5077      952.1604  2521756    7.69%
+ 256451 13978      995.6622    38     1031.5077      957.8083  2644372    7.14%
+ 271010 12625    infeasible           1031.5077      963.7845  2782295    6.57%
+ 285432 11262        cutoff           1031.5077      970.1131  2890778    5.95%
+ 298292  8969      990.9356    16     1031.5077      978.7292  3013754    5.12%
+ 311576  5520        cutoff           1031.5077      993.8351  3126416    3.65%
+
+Clique cuts applied:  11
+Cover cuts applied:  513
+Implied bound cuts applied:  250
+Mixed integer rounding cuts applied:  1
+Zero-half cuts applied:  20
+Lift and project cuts applied:  1
+Gomory fractional cuts applied:  15
+
+Root node processing (before b&c):
+  Real time             =    0.09 sec. (18.71 ticks)
+Parallel b&c, 8 threads:
+  Real time             =   68.98 sec. (19828.04 ticks)
+  Sync time (average)   =    8.65 sec.
+  Wait time (average)   =    0.01 sec.
+                          ------------
+Total (root+branch&cut) =   69.08 sec. (19846.75 ticks)
+1616
